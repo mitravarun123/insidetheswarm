@@ -1,0 +1,211 @@
+{
+  "packages": {
+    "torch": "2.11.0",
+    "numpy": "1.26.4",
+    "pandas": "2.0.3",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.6.1",
+    "matplotlib": "3.8.0",
+    "nbformat": "5.9.0"
+  },
+  "figures": {
+    "F01_system_architecture.png": {
+      "size": [
+        2800,
+        1750
+      ],
+      "dpi": [
+        350.012,
+        350.012
+      ]
+    },
+    "F02_agent_communication_graph.png": {
+      "size": [
+        2800,
+        1750
+      ],
+      "dpi": [
+        350.012,
+        350.012
+      ]
+    },
+    "F03_consensus_emergence.png": {
+      "size": [
+        3850,
+        2800
+      ],
+      "dpi": [
+        350.012,
+        350.012
+      ]
+    },
+    "F04_causal_agent_influence.png": {
+      "size": [
+        2800,
+        1750
+      ],
+      "dpi": [
+        350.012,
+        350.012
+      ]
+    },
+    "F05_communication_circuit_map.png": {
+      "size": [
+        3850,
+        1400
+      ],
+      "dpi": [
+        350.012,
+        350.012
+      ]
+    },
+    "F06_neural_representation_heatmap.png": {
+      "size": [
+        3500,
+        1400
+      ],
+      "dpi": [
+        350.012,
+        350.012
+      ]
+    },
+    "F07_targeted_ablation.png": {
+      "size": [
+        2800,
+        1750
+      ],
+      "dpi": [
+        350.012,
+        350.012
+      ]
+    },
+    "F08_activation_patching_recovery.png": {
+      "size": [
+        2800,
+        1750
+      ],
+      "dpi": [
+        350.012,
+        350.012
+      ]
+    },
+    "F09_failure_robustness.png": {
+      "size": [
+        2800,
+        1750
+      ],
+      "dpi": [
+        350.012,
+        350.012
+      ]
+    },
+    "F10_swarm_size_generalization.png": {
+      "size": [
+        2800,
+        1750
+      ],
+      "dpi": [
+        350.012,
+        350.012
+      ]
+    }
+  },
+  "sha256": {
+    "baselines/methods.py": "9cfc9d836215a83382092a0d2d4d5e777d138beed8a262f0ee47b19eddb2d798",
+    "checkpoints/gat_0.pt": "11d2c4e11f273ee4ffc092e247530940aa60ecabbc07c9c3b512b61ea4088f39",
+    "checkpoints/gat_1.pt": "db21e439cb09cd5b0fea5df9357a0d68c1c8dce56e4827310768d75b65addfe0",
+    "checkpoints/gat_2.pt": "3998855fc23df1ce5744643e6dafcb2b00a0a5332b4702a664a171929b4201f2",
+    "checkpoints/gnn_0.pt": "ad4c2df4e820243f736748c59395fb17916e851cd8e6142a5d36b91fdb7b0f24",
+    "checkpoints/gnn_1.pt": "6595471c67544523cb8749f0bd3bde3de588f3b3ead1801d4ac8183bbcfbc736",
+    "checkpoints/gnn_2.pt": "f7cbcce6c3c230378cbd3fde1e63a408496aa7842e6f2737326f39688b3f3018",
+    "checkpoints/mlp_0.pt": "350e18dc1ad801ee06b56d4867722af684e11e7e86b30fb6d2cefe59392cca02",
+    "checkpoints/mlp_1.pt": "2cc903a3a1b79a8fb65974684cd70cfe3f72d976edd0c29e385823e188a46103",
+    "checkpoints/mlp_2.pt": "baed2be0e9dcddf9314ea3d9e47f92c87c78fd601637b8c7ca908b107be94286",
+    "configs/full.json": "5de9b93ee9893bd1aa7b50146075f577aa8c38e0433f0e2607a8a7bea6ca3df2",
+    "configs/quick.json": "bb84141c4a439ec1d0bd62d9423ebe81721ffb0fd71442e874b94b6ba55f48c5",
+    "configs/standard.json": "941c9b13820ccdae1c7b2c3506a2e394322b22dd225e4bc6019d741a3512151b",
+    "environments/task.py": "18b391721e68309acef69e5cb6f16c0fd5f9d0bd00c47b8f50313280ca1067ea",
+    "experiments/metrics.py": "3b31e482c7cf893438a47a448724c7a1ce01f6936cf4d545557937af398c0cb4",
+    "experiments/run.py": "e0ca09301d4859ba0d015f8d5188d8a2a6744b3f2aa7fc2717d9bd36617bcfc9",
+    "experiments/statistics.py": "7733babcd3dd21ddcebaba27e5c0314140254b358e09373994ae20888b97f9bf",
+    "experiments/supplement.py": "d447f958ee5b894cad671cbeb0322360068c23d43c43af4796bf1e9c41dfa456",
+    "interpretability/agent_effects.py": "19991ce375e761de99c960f6e647b16b0e8357030fc436b62554f1eaaa0a8190",
+    "interpretability/analysis.py": "15b83b353eea9d2b657234100258f4410324ece07d2850ab9c7168ef1d5de603",
+    "interpretability/probes.py": "218ff1c5eb1e782d7682986ba31b72775c1e8b8cb8f84d23af8ff5bea4e4377c",
+    "models/networks.py": "a28ceb9571d4b61e8aed9c1f3c44d24d04519003f520d95c35ebe9ffba3e23b5",
+    "notebooks/build_notebook.py": "28bdb648e5bad3857efd5f5f3901010e6240554c6ace6c1d7d26290a696b5527",
+    "notebooks/master_kaggle.ipynb": "353cc81bdc5615399608c4e31efc4576d97e92835115fd014c3eb6cd3f499a76",
+    "notebooks/validate_offline.py": "8936527c14096486ff57f67e83f0c7f7abe6ae0df2340b60aaf97110af4d0405",
+    "paper/build_results.py": "bb762961e24b5f9cf5748982f7a7bbd4fda2e45f7657ee5fe6153eeebbfe55d9",
+    "paper/main.tex": "22a73f5de6dc8b4e18836632aa00f12d25bef554209d6eb36be771f464434b40",
+    "paper/mechanisms_generated.tex": "106ad534040e1a58d06e4a7fa445caa9e8f61aa6c0f4d18d8e4f6a610db11ad7",
+    "paper/results_generated.tex": "4cbfba2f3a5eb095a45b3f7f0261c59c33a8cfd6600cd7709d68c488cdbf496d",
+    "results/ablations.csv": "e45c7d65969b1c9316b05babf729ef0f932c61a16cb8eaeacb06c9f0f25b2d28",
+    "results/accuracy_summary.csv": "f97c8c1a978ea060593de2e7114a4fade0eb8901b8728a6b28410f7eb2c7c55c",
+    "results/activations_0.pt": "1773a78d24813db8981677ad1529ff035e6d0882ba2a02190b97d20545786e44",
+    "results/activations_1.pt": "f7b93dc2299dfb9023caf5b4afa224b79d7761231aedb3729a09e1fd4ab34914",
+    "results/activations_2.pt": "713fc1ab15dfb37f298f6130e9e259ba09668222e66d549eacaa9d9947b171b7",
+    "results/agent_control_regression.csv": "e870a1d3af51e187f700111cc0e23209164f22b7c0595f6d59274740a13eba30",
+    "results/circuit_transfer.csv": "da7c8b9837bffc5d3d3819da7819989b3c2c985d1415f2fd4a9e80812112e406",
+    "results/circuits.csv": "f48db58313e4ba25ba1e47f1c796f519967f5e0b5cb47f3295bc23f7ff73d724",
+    "results/edges.csv": "919e97c658a0ffc1feec8308bd72a4615dbf27b065df46d945d99ef5ea55670f",
+    "results/episode_agent_effects.csv": "3a328d7d89e3d26b6e2c015ed116f99cbf33184cb6e64dd38d4dee31641257f0",
+    "results/evaluation.csv": "a38340e4acbfdf851168eaadcc69627653d1fa36c8b61fa584ef070824a8e06b",
+    "results/failures.json": "14616260a1b821e132aa6ae72720f1f3564745e29ec54c26857b1ab2c44f2139",
+    "results/figures/F01_data.csv": "0b04c2b32d0bba1af50bc2b723bc930649c36587b6acff7028b2b51ee526b467",
+    "results/figures/F01_system_architecture.png": "7f2745da3d67f51a18b1a2e8ec83ac3741db20e0ef76aac8fb966129f596fe4d",
+    "results/figures/F02_agent_communication_graph.png": "264582e51efae31d3c5f4a07e3a810e602c7f8a9ce231ba3b7edb05bbff570ce",
+    "results/figures/F02_data.csv": "a361db9cda81e41567c78084c0ce3317562856f2fe5e9e0bb07342de2292cb09",
+    "results/figures/F03_consensus_emergence.png": "0e18c5031c0463daa68caf750742d44c19279cda945d7eac35a0467fafe8206e",
+    "results/figures/F03_data.csv": "9ee25b3e8ef2de49b3ed6eef1e4a5572e5b8998daf3eac341557eda94215a348",
+    "results/figures/F04_causal_agent_influence.png": "5c6da0995b9a279f8b7996237c1c842543ce2c2a90a223d3d73c571b2a3d43e3",
+    "results/figures/F04_data.csv": "3fccf3ebeeeebbbf3ff2dd050dba5548343fc75b80ea97efc5a3f8b6ac742507",
+    "results/figures/F05_communication_circuit_map.png": "cf6aeadf3019ea41c29a1069017db67c6558b89f8eaf250051b29f00f1b74ae2",
+    "results/figures/F05_data.csv": "163177d5d1a36471cf6f8248caea2872eb0d38b06d14eec53898c488bba5656a",
+    "results/figures/F06_data.csv": "ee250c00c8a9de271b7489bf38fdb258072c21c2073ec4b220f8b0108afb3e61",
+    "results/figures/F06_neural_representation_heatmap.png": "b38cf5a3501f37200b75d6bcb016dc0c6f366e371b9a7f753eb21f868158bea9",
+    "results/figures/F07_data.csv": "bcdf1bcfda242e608fd76f2fd87224114f33c802e785333912958e5705b7ec42",
+    "results/figures/F07_targeted_ablation.png": "1574d40a8a16c59d4b546cfb649354e687569036ecbe9b4bd608b84bb8a20bb2",
+    "results/figures/F08_activation_patching_recovery.png": "2458ebfd578bcada3c18f649cc5bc9ba4292f6c0554373b38828025e2a1d3cc1",
+    "results/figures/F08_data.csv": "33c8f579623dcba50c82e7342794496ec9df14240ef35e8b1a56e0ad53773ab5",
+    "results/figures/F09_data.csv": "042e2730eda5b5c19c9e0aaf466d2641df17e577025ab1db17c8e1568a7d3b03",
+    "results/figures/F09_failure_robustness.png": "bf89a2a396913fffe205cc5ba51406e73880b33000a67554beef640e21d56a81",
+    "results/figures/F10_data.csv": "b90381f200a598fd9df82ad03de6fc0d75fab17152db3da2e140bded6e43e3a8",
+    "results/figures/F10_swarm_size_generalization.png": "c4eee30cfc67004ae50b7a18569243b02488717d731ac91ef819ecb8f9624d86",
+    "results/generalization_gaps.csv": "f2c497db439b3d22d0a8176e3e22417b9aaa0e11d4cdde708decc3ae2fdd918b",
+    "results/gradient_attribution.csv": "1e9f2e25a3aed1bd19f23fdef49519866502bd92dd6ba051070db04de52408e0",
+    "results/graph_geometry.csv": "a39495d8840d29e7ba1b6f84e41d6342ca9c1951ff4b399d045358a7a2bf698b",
+    "results/hypothesis_status.json": "7b3501541e96a7716a9ee429a91cd3d7cfa799e4f9e8fdb9d0398b94572f47ab",
+    "results/influence.csv": "ca256e3433a3d4c7576a65b41b791dcc9f7440d47da0ea15ea5898ee8c855e46",
+    "results/influence_controlled.csv": "43aed4ed0cdd7189a45a2c0b877e63f9f6da492408518207e25cb7c029de468d",
+    "results/layers.csv": "c3e26bbfb8e4da8ec6f62fd198eeb37c73ace122b47403f5557fd0ba136e4305",
+    "results/manifest.json": "7831cd73d2f8cecf17b9058af95c3cf1d6092107cc7c88dd9991f505aeafda6f",
+    "results/metric_summary.csv": "dea54b668d64e0e738b2ccd3849e32521a8ba69931d61adb4a12242615932a3d",
+    "results/node_ranking.csv": "d504baa2ac1fbc69b30cf8ad90aaaec460f80a6b5ce30b73f08d29a9edc0af2c",
+    "results/notebook_smoke_executed.ipynb": "6700f16dab2526b73800474566062bc3cb19966c15a2ca80d4214258f4dd5699",
+    "results/notebook_validation.json": "9657c7289bb16e340565cc2255c22deecee6b8c07c037d2b6dcd4e5ddc508d74",
+    "results/paired_contrasts.csv": "f93aec7eb2f98a82eab13d5ee6b4ad11e3406dd58e520b347bb67ab280a1c199",
+    "results/paired_scenarios.csv": "cf5ff1e7846d28cf1a8fea5841cffe5805fcc9aa52d3f54fad80da0282e986cf",
+    "results/patching.csv": "348d647152e6448c83403c8579ab8abfe0cafaded044d4eb5c4c6fdd6793c028",
+    "results/patching_diagnostics.csv": "11c23d608e1870b31474ede83a81202772fe09aedc76fec45f44f0a746144eb3",
+    "results/probes.csv": "7c9cc3bc08eb8e436eae2c1e7e893afdf0a09b5cca46999bb7880b41b75b9591",
+    "results/robustness.csv": "1a0cbcf3828a4576e9ef1485597502ba3a464560fff5602e835410c0c351f4e0",
+    "results/sensitivity.csv": "c8cc5490f0c24380ff54cb620e0289dd6ac731cfce6d5356f05b7d36f05d8722",
+    "results/train_gat_0.json": "e92c8384290fbea6fac62f72d1ce8c71a5e618be2696756be2e5e78401cfca5d",
+    "results/train_gat_1.json": "45ef4b683e2fec5ec9545990e1acc49539c562b5546dea8f8d82c59bed1b8769",
+    "results/train_gat_2.json": "c6a290a619b6e58c240c99cf183d12784ddf7b2306432b3c0616cdc365b54e91",
+    "results/train_gnn_0.json": "7d08486c9978681f2673669bff135cbae3f137545dad63593bb093f0f3a38008",
+    "results/train_gnn_1.json": "6d7d433aece5ca58a2ea10daae3175f8890b5c24edea5fccdab84c8054079986",
+    "results/train_gnn_2.json": "95bc74ce7831eb2d475130147072623af304bd6c8fc8131455aba92dac63660e",
+    "results/train_mlp_0.json": "367ff2447108054087c0a6f4810d6c79d1fd2ffd7aedc42fa9dead60b6853f85",
+    "results/train_mlp_1.json": "8e9dbe143e4cc6aafa73774383c79bdfa1e4d32012147ad19053d6b2b8cb46ce",
+    "results/train_mlp_2.json": "15d2333e210d6b21cb87ee318b9b0cd7c97085a78697fa2702d42525337a9301",
+    "tests/test_system.py": "83bb5899a77b053fb5bcbd3063366274f37fff9e86f334e6838e8ee6f9690ac9",
+    "tests/test_training.py": "ecb2a71f87328a23d3ba293062a66685534e5d8e6365fcdfcac787d23c3cbacf",
+    "training/engine.py": "00ed21154b114d94c87a81202b42f87691bef305113c0b88a352fdbb0f559037",
+    "visualization/figures.py": "c06bb3563062749596b541f714cca2e5dd9986976ebcd83a715a881be83bd373"
+  },
+  "latex_compile": "success via Codex desktop compiler after generated results insertion",
+  "cuda_tested": false,
+  "full_mode_executed": false
+}

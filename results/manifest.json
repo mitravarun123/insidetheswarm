@@ -1,0 +1,24 @@
+{
+  "mode": "standard",
+  "config": {
+    "seeds": 3,
+    "hidden": 64,
+    "epochs": 35,
+    "steps": 20,
+    "batch": 128,
+    "validation": 512,
+    "test": 512,
+    "patience": 7
+  },
+  "seconds": 313.4471859931946,
+  "torch": "2.11.0",
+  "python": "3.10.9",
+  "device": "cpu",
+  "training_distribution": "n=10, connected random ring-backbone graph, reliability=.7 +/- .1, rounds=4",
+  "test_seeds": [
+    300000,
+    300001,
+    300002
+  ],
+  "warning": "Training seeds are replicates. QUICK is a smoke run. CIs with one seed are unavailable."
+}

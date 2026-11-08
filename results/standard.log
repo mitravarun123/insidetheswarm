@@ -1,0 +1,13 @@
+Training seed 0 (standard, cpu)
+Training seed 1 (standard, cpu)
+Training seed 2 (standard, cpu)
+                  mean       std
+model                           
+average       0.903646  0.113378
+gat           0.900825  0.115737
+gnn           0.901476  0.115804
+local_oracle  0.905816  0.114806
+mlp           0.900391  0.118390
+oracle        0.905816  0.114806
+randomized    0.590278  0.104121
+shuffled      0.876519  0.136043

@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "mode": "quick",
+  "method": "Python code cells in order; offline dependency import substituted for pip install",
+  "jupyter_kernel": "Sandbox disallowed binding local sockets; no live kernel started"
+}

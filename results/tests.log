@@ -1,0 +1,16 @@
+test_ablation (test_system.TestSystem) ... ok
+test_checkpoint (test_system.TestSystem) ... ok
+test_deterministic (test_system.TestSystem) ... ok
+test_masks (test_system.TestSystem) ... ok
+test_metrics (test_system.TestSystem) ... ok
+test_no_leakage (test_system.TestSystem) ... ok
+test_oracle (test_system.TestSystem) ... ok
+test_patch (test_system.TestSystem) ... ok
+test_permutation (test_system.TestSystem) ... ok
+test_signals (test_system.TestSystem) ... ok
+test_epoch_resume (test_training.TestTrainingResume) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 1.304s
+
+OK

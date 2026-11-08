@@ -1,0 +1,11 @@
+stage,type
+"Hidden world y
+(training label only)",schematic
+"Private sensors
+sᵢ ~ Bernoulli likelihood",schematic
+"Shared encoder
+independent hᵢ",schematic
+"Local masked recurrent
+messages × R",schematic
+"Per-agent logits
+external evaluation",schematic

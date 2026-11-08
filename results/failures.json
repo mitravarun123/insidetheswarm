@@ -1,0 +1,9 @@
+[
+  {
+    "component": "Jupyter kernel validation",
+    "status": "environment limitation",
+    "error": "Sandbox denied binding local kernel socket",
+    "resolution": "Executed notebook Python cells in order; skipped pip installation in offline environment",
+    "remaining": "Kaggle frontend and CUDA execution not verified locally"
+  }
+]

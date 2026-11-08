@@ -1,0 +1,10 @@
+{
+  "mode": "standard",
+  "seeds": 3,
+  "status": "Descriptive benchmark completed; no confirmatory hypothesis declarations",
+  "H1": "Interpret individual accuracy separately from globally pooled collective readout",
+  "H2": "Unverified; controlled regression is descriptive",
+  "H3": "Inspect held-out R2 and permuted controls; probes are not causal",
+  "H4": "Inspect paired targeted-minus-random and magnitude-matched seed differences",
+  "H5": "Initial sensor patch is positive control; inspect later-round paired effects"
+}

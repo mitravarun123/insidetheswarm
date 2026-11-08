@@ -1,0 +1,11 @@
+The completed STANDARD run used 3 training seeds on cpu. The full primary grid contains 5760 model-condition-seed rows. Numerical intervals below use training seeds, not agents.\par
+Primary condition: ten agents, random connected graphs, reliability 0.75 with heterogeneity 0.1, four rounds.\par
+average: collective accuracy 0.9551 (SD 0.0128; 95\% CI [0.9233, 0.9869]); individual accuracy 0.9463 (SD 0.0135; 95\% CI [0.9127, 0.9799]).\par
+gat: collective accuracy 0.9531 (SD 0.0179; 95\% CI [0.9087, 0.9976]); individual accuracy 0.9505 (SD 0.0172; 95\% CI [0.9076, 0.9933]).\par
+gnn: collective accuracy 0.9557 (SD 0.0098; 95\% CI [0.9313, 0.9801]); individual accuracy 0.9501 (SD 0.0095; 95\% CI [0.9265, 0.9738]).\par
+local\_oracle: collective accuracy 0.9622 (SD 0.0081; 95\% CI [0.9420, 0.9824]); individual accuracy 0.9624 (SD 0.0081; 95\% CI [0.9424, 0.9824]).\par
+mlp: collective accuracy 0.9564 (SD 0.0030; 95\% CI [0.9490, 0.9638]); individual accuracy 0.7472 (SD 0.0007; 95\% CI [0.7455, 0.7489]).\par
+oracle: collective accuracy 0.9622 (SD 0.0081; 95\% CI [0.9420, 0.9824]); individual accuracy 0.9622 (SD 0.0081; 95\% CI [0.9420, 0.9824]).\par
+randomized: collective accuracy 0.6276 (SD 0.1495; 95\% CI [0.2562, 0.9990]); individual accuracy 0.5981 (SD 0.0642; 95\% CI [0.4386, 0.7576]).\par
+shuffled: collective accuracy 0.9329 (SD 0.0011; 95\% CI [0.9301, 0.9357]); individual accuracy 0.9221 (SD 0.0070; 95\% CI [0.9048, 0.9394]).\par
+The paired GNN--MLP collective-accuracy contrast is -0.0007 (SD 0.0127; 95\% CI [-0.0322, 0.0309]). This does not by itself establish H1 because the collective readout pools private predictions.\par

@@ -1,0 +1,97 @@
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/nbformat/__init__.py:93: MissingIDFieldWarning: Code cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
+  validate(nb)
+Executing notebook cell 1
+Dependencies already installed; installation cell skipped for offline validation
+
+Executing notebook cell 2
+
+Executing notebook cell 3
+cpu 2.11.0
+
+Executing notebook cell 5
+test_ablation (test_system.TestSystem) ... ok
+test_checkpoint (test_system.TestSystem) ... ok
+test_deterministic (test_system.TestSystem) ... ok
+test_masks (test_system.TestSystem) ... ok
+test_metrics (test_system.TestSystem) ... ok
+test_no_leakage (test_system.TestSystem) ... ok
+test_oracle (test_system.TestSystem) ... ok
+test_patch (test_system.TestSystem) ... ok
+test_permutation (test_system.TestSystem) ... ok
+test_signals (test_system.TestSystem) ... ok
+test_epoch_resume (test_training.TestTrainingResume) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.263s
+
+OK
+
+Executing notebook cell 7
+Training seed 0 (quick, cpu)
+                  mean  std
+model                      
+average       0.929688  NaN
+gat           0.906250  NaN
+gnn           0.937500  NaN
+local_oracle  0.937500  NaN
+mlp           0.929688  NaN
+oracle        0.937500  NaN
+randomized    0.898438  NaN
+shuffled      0.937500  NaN
+Supplemental experiments and refreshed figures completed.
+Generated manuscript tables and hypothesis status from saved data.
+{
+  "mode": "quick",
+  "config": {
+    "seeds": 1,
+    "hidden": 32,
+    "epochs": 5,
+    "steps": 5,
+    "batch": 64,
+    "validation": 128,
+    "test": 128,
+    "patience": 4
+  },
+  "seconds": 10.689651250839233,
+  "torch": "2.11.0",
+  "python": "3.10.9",
+  "device": "cpu",
+  "training_distribution": "n=10, connected random ring-backbone graph, reliability=.7 +/- .1, rounds=4",
+  "test_seeds": [
+    300000
+  ],
+  "warning": "Training seeds are replicates. QUICK is a smoke run. CIs with one seed are unavailable."
+}
+
+Executing notebook cell 8
+         comparison      mean  std  ci_low  ci_high  n_seeds
+0         gnn - mlp  0.007812  NaN     NaN      NaN        1
+1     gnn - average  0.007812  NaN     NaN      NaN        1
+2    gnn - shuffled  0.000000  NaN     NaN      NaN        1
+3  gnn - randomized  0.039062  NaN     NaN      NaN        1
+<IPython.core.display.Image object>
+<IPython.core.display.Image object>
+<IPython.core.display.Image object>
+<IPython.core.display.Image object>
+<IPython.core.display.Image object>
+<IPython.core.display.Image object>
+<IPython.core.display.Image object>
+<IPython.core.display.Image object>
+<IPython.core.display.Image object>
+<IPython.core.display.Image object>
+
+Executing notebook cell 10
+                  mean  std
+model                      
+average       0.929688  NaN
+gat           0.906250  NaN
+gnn           0.937500  NaN
+local_oracle  0.937500  NaN
+mlp           0.929688  NaN
+oracle        0.937500  NaN
+randomized    0.898438  NaN
+shuffled      0.937500  NaN
+Saved: /private/tmp/swarm-notebook-validation/inside-the-swarm-results.zip
+Manuscript draft: /private/tmp/swarm-notebook-validation/swarm-notebook-run/paper/main.tex
+
+Notebook QUICK execution passed (offline Python-cell validation)
